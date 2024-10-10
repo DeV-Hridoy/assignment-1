@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* Banner section */
 .banner-section{
     margin: 50px 0;
 }
@@ -40,6 +40,7 @@
     font-size: 12px;
     font-weight: 400;
     text-align: center;
+    opacity: 0.7;
     padding-bottom: 50px;
 }
 
@@ -54,6 +55,7 @@
     cursor: pointer;
 }
 
+/* Web development section */
 .web-description{
     text-align: center;
 }
@@ -119,4 +121,50 @@
     font-size: 12px;
     font-weight: 600;
     text-align: center;
+}
+
+/* My Inspiration section */
+
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration-description{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inspiration-description h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.inspiration-description p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.inspiration-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 550px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px; 
+    margin-bottom: 100px;
+}
+
+.inspiration-video iframe{
+    border-radius: 16px;
 }
